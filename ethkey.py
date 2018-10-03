@@ -23,7 +23,8 @@ def main(args):
     try:
         private_key = decrypter.decrypt().hex()
     except ValueError as err:
-        print(str(err))
+        print(str(err), file=sys.stderr)
+        exit(-1)
     print('public address: ' + encoded_address)
     print('private key: ' + private_key)
     if args.address_qr:
