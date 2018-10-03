@@ -1,0 +1,4 @@
+scrypt=0.8.6
+pycryptodome=3.6.6
+qrcode=6.0
+eth_utils=1.2.2

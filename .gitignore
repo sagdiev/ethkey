@@ -1,0 +1,18 @@
+# IDE or editors
+.idea/
+*.iml
+*.iws
+*~
+
+# Mac
+.DS_Store
+
+# Images
+*.png
+*.bmp
+*.jpeg
+*.jpg
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
