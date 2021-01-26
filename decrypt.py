@@ -16,7 +16,8 @@ class Decrypter:
         return self.__decrypt_derived_key__(dec_key)
 
     def __extract_variables_from_json__(self, json_data):
-        crypto = json_data['Crypto']
+        print(json_data)
+        crypto = json_data['crypto']
         cipher = crypto['cipher']
         if cipher != 'aes-128-ctr':
             raise ValueError('The used cipher is not aes-128-ctr')
